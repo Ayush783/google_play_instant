@@ -1,7 +1,7 @@
 name: google_play_instant
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ayush783/google_play_instant
 
 environment:
   sdk: ^3.5.2
