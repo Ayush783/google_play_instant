@@ -3,7 +3,6 @@ import 'package:mockito/mockito.dart';
 import 'package:mockito/annotations.dart';
 import 'package:google_play_instant/google_play_instant.dart';
 import 'package:google_play_instant/google_play_instant_platform_interface.dart';
-import 'dart:developer';
 
 // Generate a mock class for GooglePlayInstantPlatform
 @GenerateMocks([GooglePlayInstantPlatform])
