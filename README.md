@@ -1,15 +1,28 @@
 # google_play_instant
 
-A new Flutter plugin project.
+Flutter plugin for Google Play Instant API
+
+## Features
+
+* Checks whether the running app is an instant app or not.
+* Shows install prompt to the user.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+initialize the Google play instant object.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+final googlePlayInstant = GooglePlayInstant();
+```
 
+check whether the current app is an instant app:
+
+```dart
+final isInstantApp = await googlePlayInstant.isInstantApp();
+```
+
+show install prompt (native android dialog):
+
+```dart
+googlePlayInstant.showInstallPrompt();
+```
